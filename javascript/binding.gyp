@@ -12,11 +12,12 @@
             "sources/Config.cc",
             "sources/Node.cc",
             "sources/global.cc",
-	    "sources/nbind.cc"
+	          "sources/nbind.cc"
 	],
 
         "cflags": [
-            "-DNBIND"
+            "-DNBIND",
+            "-std=c99"
         ],
 
         "include_dirs": [
